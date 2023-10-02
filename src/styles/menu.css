@@ -1,0 +1,38 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  border-right: 1px solid rgb(196, 196, 196);
+}
+
+.dashboard {
+  display: flex;
+}
+
+.top ul li {
+  padding: 0 24px 0 24px;
+  background: #ffffff;
+}
+
+.top ul li span svg {
+  scale: 1.5;
+}
+
+.top ul li span span {
+  scale: 1.5;
+}
+
+.foot ul li {
+  padding: 0 24px 0 24px;
+  background: #ffffff;
+}
+
+.foot ul li span svg {
+  scale: 2;
+}
+
+.foot ul li span span {
+  scale: 1.5;
+}
