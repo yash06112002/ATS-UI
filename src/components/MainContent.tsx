@@ -10,7 +10,6 @@ const MainContent: React.FC = () => {
       <MainNav1 />
       <StatusBar />
       <CardComp />
-      <CardComp />
     </Layout>
   );
 };
