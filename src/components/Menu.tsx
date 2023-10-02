@@ -14,14 +14,14 @@ import type { MenuProps } from "antd";
 import { Avatar, Menu } from "antd";
 import "../styles/menu.css";
 
-function getItem(key, icon) {
+function getItem(key: string, icon: any) {
   return {
     key,
     icon,
   };
 }
 
-function footerItem(key, icon) {
+function footerItem(key: string, icon: any) {
   return {
     key,
     icon,
